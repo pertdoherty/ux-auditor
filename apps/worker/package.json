@@ -1,0 +1,20 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "processor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.3",
+    "bullmq": "^5.76.6",
+    "dotenv": "^17.4.2",
+    "openai": "^6.37.0",
+    "playwright": "^1.59.1"
+  }
+}
